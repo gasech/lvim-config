@@ -2,7 +2,7 @@
 This is a basic setup I use as my IDE, feel free to copy and change anything.
 
 ## How to use
-Before continuing, you need [LunarVim](https://www.lunarvim.org/docs/installation) before installing this config 
+Before continuing, you need [LunarVim](https://www.lunarvim.org/docs/installation). 
 
 ```bash
 rm -rf ~/.config/lvim # Make sure your lvim config is deleted. 
@@ -22,3 +22,5 @@ git clone https://github.com/gasech/lvim-config.git lvim
 | F2 | Disables spell checking  |
 | F3 | Set spell check to PT-BR   |
 | F4 | Set spell check to english |
+
+## Setting up other spell checkers
