@@ -10,3 +10,4 @@ lvim.format_on_save.enabled = true
 -- vim
 vim.opt.relativenumber = true
 vim.opt.shell = "/bin/sh"
+vim.opt.clipboard = ""
