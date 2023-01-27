@@ -8,6 +8,9 @@ lvim.log.level = "warm"
 lvim.format_on_save.enabled = true
 
 -- vim
+vim.opt.clipboard = ""
 vim.opt.relativenumber = true
 vim.opt.shell = "/bin/sh"
-vim.opt.clipboard = ""
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
+vim.opt.termguicolors = true
