@@ -15,6 +15,7 @@ git clone https://github.com/gasech/lvim-config.git lvim
 | Key  | Command    |
 |----- | ---------- |
 | Space  | Leader   |
+| Ctrl + c | Go to normal mode (Alternative to ESC) |
 | Ctrl + s  | Saves a file   |
 | Shift + h | Left buffer tab |
 | Shift + l | Right buffer tab  |
