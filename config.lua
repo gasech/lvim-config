@@ -3,11 +3,11 @@ require("someone.plugins")
 require("someone.theme")
 require("someone.bindings")
 
--- general
+-- General
 lvim.log.level = "warm"
 lvim.format_on_save.enabled = true
 
--- vim
+-- Vim
 vim.opt.clipboard = ""
 vim.opt.relativenumber = true
 vim.opt.shell = "/bin/sh"
