@@ -8,6 +8,9 @@ lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 lvim.builtin.nvimtree.setup.filters.custom = { ".git/", "node_modules/", ".cache/", "vendor/", ".vscode" }
 
+lvim.builtin.bufferline.active = false
+lvim.builtin.illuminate.active = false
+
 lvim.builtin.cmp.formatting = {
   format = require("tailwindcss-colorizer-cmp").formatter
 }

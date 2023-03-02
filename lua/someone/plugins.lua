@@ -6,13 +6,14 @@ lvim.plugins = {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",
   },
-  { "iamcco/markdown-preview.nvim",
+  {
+    "iamcco/markdown-preview.nvim",
     run = "cd app && npm install",
     setup = function()
       vim.g.mkdp_filetypes = { "markdown" }
       vim.g.mkdp_port = '8085'
       vim.g.mkdp_theme = 'dark'
-      vim.g.mkdp_page_title = ' '
+      vim.g.mkdp_page_title = '${name} - Markdown Preview'
     end,
     ft = { "markdown" },
   },
@@ -41,4 +42,7 @@ lvim.plugins = {
       })
     end,
   },
+  {
+    "ThePrimeagen/vim-be-good",
+  }
 }

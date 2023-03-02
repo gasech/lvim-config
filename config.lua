@@ -1,7 +1,7 @@
-require("someone.builtins")
-require("someone.plugins")
-require("someone.theme")
-require("someone.bindings")
+reload("someone.builtins")
+reload("someone.plugins")
+reload("someone.theme")
+reload("someone.bindings")
 
 -- General
 lvim.log.level = "warm"
@@ -14,3 +14,4 @@ vim.opt.shell = "/bin/sh"
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.termguicolors = true
+vim.opt.showtabline = 0

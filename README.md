@@ -10,18 +10,13 @@ cd ~/.config
 git clone https://github.com/gasech/lvim-config.git lvim
 ```
 
-## Bindings
+## Keybindings
 
 | Key  | Command    |
 |----- | ---------- |
 | Space  | Leader   |
 | Ctrl + c | Go to normal mode (Alternative to ESC) |
 | Ctrl + s  | Saves a file   |
-| Shift + h | Left buffer tab |
-| Shift + l | Right buffer tab  |
-| Shift + x | Close buffer tab  |
 | F2 | Disables spell checking  |
-| F3 | Set spell check to PT-BR   |
-| F4 | Set spell check to english |
-
-## Setting up other spell checkers
+| F3 | Set spell check to Portuguese |
+| F4 | Set spell check to English |
