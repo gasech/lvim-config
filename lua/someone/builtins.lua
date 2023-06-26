@@ -7,6 +7,8 @@ lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 lvim.builtin.nvimtree.setup.filters.custom = { ".git/", "node_modules/", ".cache/", "vendor/", ".vscode" }
+lvim.builtin.nvimtree.setup.renderer.icons.glyphs.folder.arrow_open = ""
+lvim.builtin.nvimtree.setup.renderer.icons.glyphs.folder.arrow_closed = ""
 
 lvim.builtin.bufferline.active = false
 lvim.builtin.illuminate.active = false

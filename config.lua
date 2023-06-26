@@ -1,5 +1,6 @@
-reload("someone.builtins")
 reload("someone.plugins")
+reload("someone.builtins")
+reload("someone.colorizer")
 reload("someone.theme")
 reload("someone.bindings")
 
