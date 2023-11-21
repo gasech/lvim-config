@@ -1,8 +1,11 @@
 reload("someone.plugins")
 reload("someone.builtins")
 reload("someone.colorizer")
+reload("someone.scrollbar")
 reload("someone.theme")
 reload("someone.bindings")
+reload("someone.formatters")
+reload("someone.linters")
 
 -- General
 lvim.log.level = "warm"
