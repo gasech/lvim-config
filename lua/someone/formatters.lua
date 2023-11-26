@@ -11,6 +11,11 @@ formatters.setup({
 		args = { "-indent-size=2" },
 	},
 	{
+		name = "prettierd",
+		filetypes = { "scss" },
+		args = { "-indent-size=2" },
+	},
+	{
 		name = "stylua",
 		filetypes = { "lua" },
 	},
