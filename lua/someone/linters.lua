@@ -4,4 +4,8 @@ linters.setup({
 		name = "eslint_d",
 		filetypes = { "css", "javascript", "javascriptreact", "typescript", "typescriptreact" },
 	},
+	{
+		name = "shellcheck",
+		filetypes = { "bash", "sh" },
+	},
 })

@@ -6,6 +6,11 @@ formatters.setup({
 		filetypes = { "typescript", "typescriptreact" },
 	},
 	{
+		name = "beautysh",
+		filetypes = { "bash", "csh", "ksh", "sh", "zsh" },
+		args = { "-indent-size=2" },
+	},
+	{
 		name = "stylua",
 		filetypes = { "lua" },
 	},
