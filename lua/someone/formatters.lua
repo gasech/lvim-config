@@ -13,7 +13,7 @@ formatters.setup({
 	{
 		name = "prettierd",
 		filetypes = { "scss" },
-		args = { "-indent-size=2" },
+		args = { "--tab-width=2" },
 	},
 	{
 		name = "stylua",
