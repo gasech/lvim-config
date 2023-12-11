@@ -19,3 +19,4 @@ vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.termguicolors = true
 vim.opt.showtabline = 0
+vim.opt.wrap = true -- wrap lines
