@@ -17,6 +17,7 @@ git clone https://github.com/gasech/lvim-config.git lvim
 | Space  | Leader   |
 | Ctrl + c | Go to normal mode (Alternative to ESC) |
 | Ctrl + s  | Saves a file   |
+| F1 | Toggle Markdown Preview (Make sure your browser is open) |
 | F2 | Disables spell checking  |
 | F3 | Set spell check to Portuguese |
 | F4 | Set spell check to English |
