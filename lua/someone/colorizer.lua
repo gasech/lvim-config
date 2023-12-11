@@ -6,7 +6,7 @@ require("colorizer").setup({
 		names = true, -- "Name" codes like Blue or blue
 		RRGGBBAA = false, -- #RRGGBBAA hex codes
 		AARRGGBB = false, -- 0xAARRGGBB hex codes
-		rgb_fn = false, -- CSS rgb() and rgba() functions
+		rgb_fn = true, -- CSS rgb() and rgba() functions
 		hsl_fn = false, -- CSS hsl() and hsla() functions
 		css = false, -- Enable all CSS features: rgb_fn, hsl_fn, names, RGB, RRGGBB
 		css_fn = false, -- Enable all CSS *functions*: rgb_fn, hsl_fn
@@ -16,7 +16,7 @@ require("colorizer").setup({
 		-- True is same as normal
 		tailwind = true, -- Enable tailwind colors
 		-- parsers can contain values used in |user_default_options|
-		sass = { enable = false, parsers = { "css" } }, -- Enable sass colors
+		sass = { enable = true, parsers = { "css" } }, -- Enable sass colors
 		virtualtext = "■",
 		-- update color values even if buffer is not focused
 		-- example use: cmp_menu, cmp_docs
