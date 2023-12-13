@@ -10,7 +10,7 @@ lvim.keys.normal_mode["<M-1>"] = "<NOP>"
 lvim.keys.normal_mode["<M-2>"] = "<NOP>"
 
 -- MarkdownPreview
-lvim.keys.normal_mode["<F1>"] = ":MarkdownPreviewToggle<CR>"
+lvim.keys.normal_mode["<F1>"] = ":MarkdownPreview<CR>"
 
 -- Toggle Boolean
 lvim.keys.normal_mode["<leader>t"] = ":ToggleAlternate<CR>"

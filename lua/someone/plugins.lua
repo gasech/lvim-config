@@ -12,6 +12,7 @@ lvim.plugins = {
 			vim.g.mkdp_port = "8085"
 			vim.g.mkdp_theme = "dark"
 			vim.g.mkdp_page_title = "${name} - Markdown Preview"
+			vim.g.mkdp_markdown_css = "/home/gab/markdown.css"
 		end,
 	},
 	"roobert/tailwindcss-colorizer-cmp.nvim",
