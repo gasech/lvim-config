@@ -20,3 +20,4 @@ vim.opt.sidescrolloff = 8
 vim.opt.termguicolors = true
 vim.opt.showtabline = 0
 vim.opt.wrap = true -- wrap lines
+vim.g.markdown_recommended_style = 0
