@@ -4,7 +4,7 @@ formatters.setup({
 	{
 		name = "prettierd",
 		filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "scss" },
-		args = { "--tab-width=2" },
+		-- args = { "--tab-width=2" },
 	},
 	{
 		name = "rustywind",
