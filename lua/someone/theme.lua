@@ -1,4 +1,4 @@
-lvim.colorscheme = "poimandres"
+lvim.colorscheme = "oldworld"
 
 lvim.transparent_window = false
 lvim.builtin.lualine.style = "default"

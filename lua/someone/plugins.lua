@@ -27,11 +27,15 @@ lvim.plugins = {
   "NvChad/nvim-colorizer.lua",
   "mzlogin/vim-markdown-toc",
   "ThePrimeagen/vim-be-good",
+  "sponkurtus2/angelic.nvim",
+  "dgox16/oldworld.nvim",
+  "mellow-theme/mellow.nvim",
   "gasech/poimandres.nvim",
   {
     "olimorris/onedarkpro.nvim",
     priority = 1000, -- Ensure it loads first
   },
+  "FrenzyExists/aquarium-vim",
   "petertriho/nvim-scrollbar",
   "rmagatti/alternate-toggler",
   {
